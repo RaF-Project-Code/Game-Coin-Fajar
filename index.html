@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch the Coin - Gothic Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <span class="tag">GOTHIC EDITION</span>
+    <h1>Catch the Coin<span>UI/UX, Audio &amp; Polish</span></h1>
+  </header>
+
+  <main class="card">
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+
+    <div class="info">
+      <span class="chip">↑ ↓ ← → Gerak</span>
+      <span class="chip">M / tombol Suara: Mute</span>
+      <span id="message"></span>
+    </div>
+
+    <p class="caption">Ambil koin terkutuk, hindari duri kematian</p>
+  </main>
+
+  <!-- Audio Latar Belakang dari Folder Lokal -->
+  <audio id="bgmAudio" src="VIVALDI - STORM (SUMMER - THE FOUR SEASONS) ORGAN SOLO - JONATHAN SCOTT - scottbrothersduo.mp3" preload="auto" loop></audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
